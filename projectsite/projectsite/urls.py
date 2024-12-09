@@ -72,4 +72,5 @@ urlpatterns = [
     path('student_list/add/', StudentCreateView.as_view(), name='student-add'),
     path('student_list/<pk>/', StudentUpdateView.as_view(), name='student-update'),
     path('student_list/<pk>/delete/', StudentDeleteView.as_view(), name='student-delete'),
+
 ]

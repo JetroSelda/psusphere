@@ -6,6 +6,7 @@ from .models import College
 from .models import Program
 from .models import Student
 
+
 class OrganizationForm(ModelForm):
     class Meta:
         model = Organization

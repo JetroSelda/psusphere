@@ -397,11 +397,6 @@ class StudentDeleteView(DeleteView):
         messages.success(self.request, 'Successfully deleted.')
         return super().form_valid(form)
 
-    
-
-
-
-
 
 
 
